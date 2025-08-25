@@ -1,0 +1,28 @@
+Substance,Formula,M (kg/kmol),Tc (K),Pc (bar),Zc
+Acetylene,C2H2,26.04,309.0,62.8,0.274
+Air (equivalent),,28.97,239.0,37.7,0.284
+Ammonia,NH3,17.03,406.0,112.8,0.242
+Argon,Ar,39.94,151.0,48.6,0.29
+Benzene,C6H6,78.11,563.0,49.3,0.274
+Butane,C4H10,58.12,425.0,38.0,0.274
+Carbon,C,12.01,,,
+Carbon dioxide,CO2,44.01,304.0,73.9,0.276
+Carbon monoxide,CO,28.01,133.0,35.0,0.294
+Copper,Cu,63.54,,,
+Ethane,C2H6,30.07,305.0,48.8,0.285
+Ethanol,C2H5OH,46.07,516.0,63.8,0.249
+Ethylene,C2H4,28.05,283.0,51.2,0.27
+Helium,He,4.003,5.2,2.3,0.3
+Hydrogen,H2,2.016,33.2,13.0,0.304
+Methane,CH4,16.04,191.0,46.4,0.29
+Methanol,CH3OH,32.04,513.0,79.5,0.22
+Nitrogen,N2,28.01,126.0,33.9,0.291
+Octane,C8H18,114.22,569.0,24.9,0.258
+Oxygen,O2,32.0,154.0,50.5,0.29
+Propane,C3H8,44.09,370.0,42.7,0.276
+Propylene,C3H6,42.08,364.0,46.2,0.278
+Refrigerant 12,CCl2F2,120.92,385.0,41.2,0.276
+Refrigerant 22,CHClF2,86.48,369.0,49.8,0.267
+Refrigerant 134a,CF3CH2F,102.03,374.0,40.7,0.26
+Sulfur dioxide,SO2,64.06,431.0,78.7,0.263
+Water,H2O,18.02,647.3,220.9,0.23
