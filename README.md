@@ -51,7 +51,7 @@ It can handle steam tables, retrieve interpolated property data, and features a 
   - Animated cycle simulation  
 
 ---
-*AI tools were used as part of the development process for optimization, debugging and documentation.*
+###*AI tools were used as part of the development process for optimization, debugging and documentation.*
 ---
 ## ⚡ Installation
 ```bash
