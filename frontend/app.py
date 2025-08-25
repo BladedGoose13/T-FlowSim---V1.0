@@ -1,7 +1,9 @@
 import streamlit as st 
-import PROYECTO_PERSONAL as thermo
 import pandas as pd
 from pathlib import Path
+import thermoflow as thermo
+
+thermo.set_tables(T, P, SC, I)
 
 def read_any(path):
     for enc in ("utf-8", "utf-8-sig", "cp1252", "latin1"):
