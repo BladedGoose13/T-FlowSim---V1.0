@@ -2,8 +2,6 @@ import streamlit as st
 import PROYECTO_PERSONAL as thermo
 import pandas as pd
 from pathlib import Path
-from streamlit_option_menu import option_menu
-
 
 def read_any(path):
     for enc in ("utf-8", "utf-8-sig", "cp1252", "latin1"):
@@ -82,6 +80,7 @@ def main():
                         st.session_state["x_input"] = 0.0
                     st.slider("Quality (x)", min_value=0.0, max_value=1.0, value=st.session_state["x_input"],
                               step=0.01, key="x_input")
+                    x = st.session_state["x_input"]
                     
         if mode_T is None and mode_P is None:
             Tval = None
