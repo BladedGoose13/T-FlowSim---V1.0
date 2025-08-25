@@ -1,6 +1,9 @@
 import numpy as np
 import pandas as pd
-  
+from .interpolation import _interp_row_1d, _bilinear_superheated
+from .utils import Quality_Equation, _get_if_present
+
+
 TemperatureTable = None
 PressureTable = None
 Superheated_CompressedTable = None
