@@ -51,7 +51,8 @@ It can handle steam tables, retrieve interpolated property data, and features a 
   - Animated cycle simulation  
 
 ---
-
+*AI tools were used as part of the development process for optimization, debugging and documentation.*
+---
 ## ⚡ Installation
 ```bash
 git clone https://github.com/BladedGoose13/ThermoFlow---V1.0.git
