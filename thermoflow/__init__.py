@@ -1,1 +1,2 @@
-from .state import State, set_tables, Read_Tables
+from .state import State
+from .tables import set_tables
