@@ -50,6 +50,15 @@ It can handle steam tables, retrieve interpolated property data, and features a 
   - Dynamic matplotlib plotting (sliders, animations, updates)  
   - Animated cycle simulation  
 
+Credit for steam tables used in this project: 
+1. Saturated_by_Pressure.csv
+Hendren, N. (2022, November 28). Saturated water properties by pressure (Version 1.4) [Dataset]. University of Colorado Boulder.
+
+2. Tabla_Saturada_por_Temperatura.csv
+Hendren, N. (2022, April 15). Saturated water properties by temperature (Version 1.2) [Dataset]. University of Colorado Boulder.
+
+3. Cleaned_Filled_Compressed_Liquid_and_Superheated_Steam.csv
+Hendren, N. (2022, April 15). Compressed liquid and superheated steam properties (Version 1.3) [Dataset]. University of Colorado Boulder.
 ---
 > **Note:** AI tools were used as part of the development process for optimization, debugging and documentation.
 ---
