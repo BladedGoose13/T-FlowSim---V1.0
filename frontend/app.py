@@ -2,9 +2,9 @@ import streamlit as st
 import pandas as pd
 from pathlib import Path
 import thermoflow as thermo
+from thermoflow import tables
 
-
-
+BASE = Path(__file__).resolve().parent.parent / "thermoflow"
 thermo.set_tables(T, P, SC, I)
 
 def read_any(path):
@@ -24,11 +24,11 @@ def Load_Tables(base: str | Path = None):
         
         return pd.read_csv(base / name, encoding="cp1252")
 
-    T  = read("Tabla_Saturada_por_Temperatura.csv")
-    P  = read("Saturated_by_Pressure.csv")
-    SC = read("Cleaned_Filled_Compressed_Liquid_and_Superheated_Steam.csv")
-    I  = read("Critical_Properties_Table__SI_.csv")
-    return T, P, SC, I, str(base)
+    T  = read(base / "Tabla_Saturada_por_Temperatura.csv")
+    P  = read(base / "Saturated_by_Pressure.csv")
+    SC = read(base / "Cleaned_Filled_Compressed_Liquid_and_Superheated_Steam.csv")
+    I  = read(base / "Critical_Properties_Table__SI_.csv")
+    thermo.set_tables(T, P, SC, I)
 
 def main():
     st.title("ThermoFlow (V1.0)")
@@ -36,7 +36,7 @@ def main():
     Tval = None
     Pval = None
     
-    Ttbl, Ptbl, Stbl, Itbl, loaded_from = Load_Tables()
+    Load_Tables()
 
     thermo.set_tables(T=Ttbl, P=Ptbl, S_C=Stbl, I=Itbl)
 
@@ -62,7 +62,6 @@ def main():
         disabled = TP_given
             
         if TP_given:
-            # Borra valores previos de los intensivos
             for key in ["v_input", "u_input", "h_input", "s_input", "x_input"]:
                 if key in st.session_state:
                     st.session_state[key] = None
