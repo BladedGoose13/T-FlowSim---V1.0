@@ -15,7 +15,7 @@ def read_any(path):
 
 @st.cache_data
 def Load_Tables(base: str | Path = None):
-    base = Path(base) if base else Path(__file__).resolve().parent / "thermoflow")
+    base = Path(base) if base else (Path(__file__).resolve().parent / "thermoflow")
 
     T  = read_any(base / "Tabla_Saturada_por_Temperatura.csv")
     P  = read_any(base / "Saturated_by_Pressure.csv")
