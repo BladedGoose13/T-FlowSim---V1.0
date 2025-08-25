@@ -54,7 +54,7 @@ It can handle steam tables, retrieve interpolated property data, and features a 
 
 ## ⚡ Installation
 ```bash
-git clone https://github.com/YOURUSERNAME/ThermoFlow.git
-cd ThermoFlow
+git clone https://github.com/BladedGoose13/ThermoFlow---V1.0.git
+cd ThermoFlow---V1.0
 pip install -r requirements.txt
 streamlit run frontend/app.py
