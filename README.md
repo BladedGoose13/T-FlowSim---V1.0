@@ -14,8 +14,8 @@ It can handle steam tables, retrieve interpolated property data, and features a 
 - Reads and interpolates **predefined steam tables** (saturation by T and P, superheated/compressed).
 - Enforces the **state postulate** (two intensive properties define the state, no more than two property inputs allowed).
 - Computes state properties:
-  - **Specific internal energy**: *u, uf, ug, ufg*
   - **Specific volume**: *v, vf, vg*
+  - **Specific internal energy**: *u, uf, ug, ufg*
   - **Specific enthalpy**: *h, hf, hg, hfg*
   - **Specific entropy**: *s, sf, sg, sfg*
 
