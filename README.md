@@ -18,7 +18,8 @@ It can handle steam tables, retrieve interpolated property data, and features a 
   - **Specific internal energy**: *u, uf, ug, ufg*
   - **Specific enthalpy**: *h, hf, hg, hfg*
   - **Specific entropy**: *s, sf, sg, sfg*
-
+---
+![ThermoFlow UI](ThermoFlow (V1.0).png)
 ---
 
 ## 🗺️ Roadmap
