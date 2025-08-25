@@ -15,7 +15,7 @@ def read_any(path):
 
 @st.cache_data
 def Load_Tables(base: str | Path = None):
-    base = Path(base) if base else Path(__file__).resolve().parent
+    base = Path(base) if base else Path(__file__).resolve().parent / "thermoflow")
 
     T  = read_any(base / "Tabla_Saturada_por_Temperatura.csv")
     P  = read_any(base / "Saturated_by_Pressure.csv")
@@ -40,7 +40,7 @@ def main():
         st.markdown("<div style='text-align: center;'><h2 style='font-size:16px;'>Following the state postulate, only 2 intensive property inputs are allowed</h2></div>", unsafe_allow_html=True)
         col_T, col_P = st.columns(2)
         with col_T:
-            mode_T = st.number_input("Saturation Temperature (C°)", min_value=-50.0, max_value=2000.0,value=None, step=0.01)
+            mode_T = st.number_input("Saturation Temperature (°C)", min_value=-50.0, max_value=2000.0,value=None, step=0.01)
         with col_P:
             mode_P = st.number_input("Saturation Pressure (MPa)", min_value=0.001, max_value=1000.0, value=None, step=0.001)
         col1, col2 = st.columns(2)
