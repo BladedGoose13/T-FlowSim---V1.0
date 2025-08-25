@@ -1,3 +1,6 @@
+import pandas as pd
+from .tables import Read_Tables
+
 class State:
     def __init__(self, Material, m, V = None, P=None, T=None, x=None, v=None, u=None, h=None, s=None, Velocity=None, Height=None):
         self.Material = Material
