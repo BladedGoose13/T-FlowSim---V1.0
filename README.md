@@ -19,7 +19,7 @@ It can handle steam tables, retrieve interpolated property data, and features a 
   - **Specific enthalpy**: *h, hf, hg, hfg*
   - **Specific entropy**: *s, sf, sg, sfg*
 ---
-<img src="ThermoFlow%20(V1.0).png" alt="ThermoFlow UI" width="600">
+<img src="ThermoHub%20(V1.0).png" alt="ThermoFlow UI" width="600">
 
 ## 🗺️ Roadmap
 
