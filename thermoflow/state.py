@@ -1,6 +1,7 @@
 import pandas as pd
-from tables import Read_Tables, Quality_Equation
-from utils import _get_if_present
+from .tables import Read_Tables
+from .utils import Quality_Equation 
+
 
 class State:
     def __init__(self, Material, m, V = None, P=None, T=None, x=None, v=None, u=None, h=None, s=None, Velocity=None, Height=None):
