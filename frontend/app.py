@@ -28,7 +28,7 @@ def Load_Tables(base: str | Path = None):
     return {"loaded_from": str(base)}
     
 def main():
-    st.title("T-FlowSim (V1.0)")
+    st.title("ThermoHub.Sim (V1.0)")
    
     Tval = None
     Pval = None
@@ -105,7 +105,7 @@ def main():
     with st.expander("About this version"):
         st.markdown("<div style='text-align: center;'><h2 style='font-size:16px;'>ABOUT</h2></div>", unsafe_allow_html=True)
         st.markdown(
-            "- T-FlowSim is a web application intended for analyzing thermodynamic processes on industrial systems.\n"
+            "- ThermoHub.Sim is a web application intended for analyzing thermodynamic processes on industrial systems.\n"
             "- Reads and interpolates tables based on input, giving the user the entirety of properties for the given information (These vary according to table needed according to data input: Temperature, Pressure & Superheated/Compressed)\n"
             "- Allows for quality input, calculating automatically the net specific values\n"
         )   
