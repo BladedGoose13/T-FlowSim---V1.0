@@ -1,6 +1,7 @@
 import pandas as pd
 from .tables import Read_Tables
-from .utils import Quality_Equation, _get_if_present
+from .utils import Quality_Equation
+from .utils import _get_if_present
 
 
 class State:
