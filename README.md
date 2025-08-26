@@ -1,11 +1,11 @@
-# T-FlowSim
+# ThermoHub.Sim
 
 [![Python](https://img.shields.io/badge/python-3.10%2B-blue.svg)](https://www.python.org/)
 [![Streamlit](https://img.shields.io/badge/Streamlit-app-red.svg)](https://streamlit.io/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![Made with Love](https://img.shields.io/badge/Made%20with-%E2%9D%A4-red.svg)]()
 
-T-FlowSim is a Python-based simulation software for thermodynamic processes, designed for industrial systems.  
+ThermoHub.Sim is a Python-based simulation software for thermodynamic processes, designed for industrial systems.  
 It can handle steam tables, retrieve interpolated property data, and features a **Streamlit-based UI**.
 
 ---
@@ -65,6 +65,6 @@ Hendren, N. (2022, April 15). Compressed liquid and superheated steam properties
 ## ⚡ Installation
 ```bash
 git clone https://github.com/BladedGoose13/ThermoFlow---V1.0.git
-cd T-FlowSim---V1.0
+cd ThermoHub.Sim---V1.0
 pip install -r requirements.txt
 streamlit run frontend/app.py
