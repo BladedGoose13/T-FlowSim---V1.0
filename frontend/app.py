@@ -37,7 +37,7 @@ def main():
     st.caption(f"Tables loaded from: `{meta['loaded_from']}`")
 
     with st.container():
-    st.markdown("State Properties")
+        st.markdown("State Properties")
         
         st.session_state["mi_key"] = None
         st.markdown("<div style='text-align: center;'><h2 style='font-size:20px;'>You can choose to use Temperature, Pressure or both.<br> Please leave unused properties empty</h2></div>", unsafe_allow_html=True)
