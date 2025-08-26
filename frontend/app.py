@@ -1,6 +1,9 @@
+from pathlib import Path
+import sys
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+
 import streamlit as st 
 import pandas as pd
-from pathlib import Path
 import thermoflow as thermo
 from thermoflow import tables
 
