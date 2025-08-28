@@ -64,7 +64,7 @@ Hendren, N. (2022, April 15). Compressed liquid and superheated steam properties
 ---
 ## ⚡ Installation
 ```bash
-git clone https://github.com/BladedGoose13/ThermoFlow---V1.0.git
+git clone https://github.com/BladedGoose13/ThermoHub.Sim---V1.0.git
 cd ThermoHub.Sim---V1.0
 pip install -r requirements.txt
 streamlit run frontend/app.py
